@@ -1,0 +1,130 @@
+.nav{
+
+         width:100%;
+         background:rgb(62,28,62) ;
+         height:100px;
+         margin-top:20px;
+         
+
+    }
+body{
+	
+	
+}
+
+.tab7
+{
+	     width:500px;
+         background:rgb(203,181,251);
+         height:100%;
+         
+	
+}
+
+.tab8
+{
+	      width:500px;
+         background:rgb(255,255,176);
+         height:100%;
+         margin-top:20px;
+	
+}
+
+
+/*.nav2{
+
+         width:1000px;
+         background:#000033;
+         height:100px;
+         margin-top:20px;
+         
+
+    }*/
+	
+  
+     ul{
+        list-style:none;
+        position:absolute;
+        padding:0;
+        margin:0;
+
+   }
+
+  li{
+       float:left;
+       margin-top:30px;
+
+  }
+
+  a{   
+    width:120px;
+    color:black;
+    display:block;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+    font-family:Century Gothic;
+    border-radius:10px;      
+  }
+  
+  .tab1{
+	     background:rgb(0,96,136) ;
+         height:100px;
+		 width: 800px;
+         margin-top:20px;
+	  
+  }
+  
+    
+  
+  th{
+	  color: white;
+  }
+  	 
+	 input {
+    width: 170%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+      }
+
+	 
+	 
+	 td{
+		 color:rgb(0,0,0);
+		
+	 }  
+
+       .valid {
+    color: green;
+    }
+
+     .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+    }
+	
+	
+	           .invalid {
+             color: red;
+            }
+
+            .invalid:before {
+          position: relative;
+            left: -35px;
+           content: "&#10006;";
+            } 
+       
+	   
+	   input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+	
+	
+}
+     	 

@@ -1,0 +1,136 @@
+.nav{
+
+         width:100%;
+         background:rgb(80,120,172) ;
+         height:100px;
+         margin-top:20px;
+         
+
+    }
+        body {
+    background-image: url("../image/pic5.jpg");
+	background-repeat: no-repeat;
+    background-size: 1600px 100%;
+	font:white;
+		}
+
+
+	
+     ul{
+        list-style:none;
+        position:absolute;
+        padding:0;
+        margin:0;
+
+   }
+
+  li{
+       float:left;
+       margin-top:30px;
+
+  }
+
+  a{   
+    width:120px;
+    color:white;
+    display:block;
+    font-size:20px;
+    text-align:center;
+    padding:05px;
+    font-weight:bold;
+    font-family:Century Gothic;
+    border-radius:10px; 
+    	
+  }
+  
+  .tab1{
+	     background:rgb(0,96,136) ;
+         height:100px;
+		 width: 800px;
+         margin-top:20px;
+	  
+  }
+  th{
+	  color: white;
+  }
+  td {
+	  text-align:center;
+	  color: white;
+	  
+  } 
+
+       .a{
+		   position:absolute;
+	       text-align:center;
+	  
+  } 	 
+	 
+	 input {
+    width: 170%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+      }
+
+	 
+	 
+	 td{
+		  color: white;
+		
+	 }  
+
+       .valid {
+    color: green;
+    }
+
+     .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+    }
+	
+	
+	           .invalid {
+             color: red;
+            }
+
+            .invalid:before {
+          position: relative;
+            left: -35px;
+           content: "&#10006;";
+            } 
+       
+	   
+	   input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+	
+	
+}
+
+   input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            #border-radius: 4px;
+            font-size: 16px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            background-color: white;
+            background-image: url('../image/searchicon.png');
+			
+            background-size: 28px 28px;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus {
+            width: 65%;
+		}
+   	 
